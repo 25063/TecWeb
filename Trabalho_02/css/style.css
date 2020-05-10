@@ -1,7 +1,27 @@
 background-color{
     background-color: #B9C7D1;
 }
-.table{
+
+.title{
     text-align: center;
-    border-style: none ;
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+
+}
+#element{
+    border: solid;
+    text-align: center;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    
+    
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
