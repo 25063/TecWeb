@@ -1,27 +1,75 @@
-background-color{
-    background-color: #B9C7D1;
+body{
+    background-color: #070707;
+    margin: auto;
 }
 
 .title{
     text-align: center;
 }
+
 table{
-    font-family: 'Times New Roman', Times, serif;
     margin: auto;
-
+    /* width: 50px; */
+    padding-left: 30px;
+    padding-right: 30px;
 }
-#element{
+td{
+    /* overflow: auto; */
+    column-width: 65px;
+    height: 10px;
+    min-width: 20px;
+    max-width: 120px; */
+    
+}
+
+
+ #element{
     border: solid;
-    text-align: center;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
     
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
     
-
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #ffffff;
 }
+/*
+#atômico{
+    font-size: 70% ;
+    text-justify: auto;
+    width: 10px;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+#símbolo{
+    
+    font-size: 70%;
+    text-align: center;
+}
+
+#nome{
+    
+    text-align: center;
+    font-family: serif;
+    font-size: 50%;
+
+    width: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#massa{
+    font-size: 50%;
+    text-align: center;
+    font-family: serif;
+    vertical-align: unset;
+}
+#distribuição{
+    font-size: 50%;
+} */
+
+/* unvisited link */
