@@ -1,6 +1,7 @@
 body{
     background-color: #070707;
     margin: auto;
+    text-align: center;
 }
 
 .title{
@@ -9,67 +10,127 @@ body{
 
 table{
     margin: auto;
-    /* width: 50px; */
     padding-left: 30px;
     padding-right: 30px;
 }
-td{
-    /* overflow: auto; */
-    column-width: 65px;
-    height: 10px;
-    min-width: 20px;
-    max-width: 120px; */
-    
+
+h2, th{
+    padding: 5px 20px 5px 5px;
+    color:#ffffff;  
 }
 
+.período{
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+td{
+    column-width: 10%;
+    line-height: 110%;
+    height: 9px;
+    width: 110px;    
+}
 
- #element{
+a:link{
+    text-decoration: none;
+    color: #070707;
+}
+
+:visited{
+    color:#070707;
+}
+
+#element{
     border: solid;
     
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    color: #ffffff;
-}
-/*
-#atômico{
-    font-size: 70% ;
-    text-justify: auto;
-    width: 10px;
-    padding-top: 2px;
-    padding-left: 2px;
 }
 
-#símbolo{
-    
-    font-size: 70%;
-    text-align: center;
+/* di{
+    text-align: left;
+    padding: 5px 2px 2px 5px;
 }
+at{
 
-#nome{
-    
-    text-align: center;
-    font-family: serif;
-    font-size: 50%;
+}
+si{
 
-    width: 100px;
-    padding-right: 10px;
-    padding-left: 10px;
 }
-#massa{
-    font-size: 50%;
-    text-align: center;
-    font-family: serif;
-    vertical-align: unset;
-}
-#distribuição{
-    font-size: 50%;
+no{
+
 } */
 
-/* unvisited link */
+.distribuição{
+    margin-top: auto;
+    float: right;
+    font-size: 90%;
+    padding: 2px 3px 2px 2px;
+}
+
+.atômico{
+    text-align: left;
+    padding: 5px 2px 2px 5px;
+}
+
+.símbolo{
+    font-size: 130%
+}
+
+.name{
+    text-align: center;
+    font-size: 110%;
+    padding-bottom: 10px;
+}
+
+
+
+td div:not(.distribuição):not(.atômico):not(.símbolo):not(.nome):hover {
+    border: 2px solid #ffffff;
+}
+
+.Metais_Alcalinos{
+    background-color: #e44c4cf5;
+}
+
+.Metais_Alcalinos_Terrosos{
+    background-color: #cc9236ef;
+}
+
+.Metais_Transição{
+    background-color: #fff780;
+}
+
+.Metais{
+    background-color: #48d174;
+}
+
+.Semimetais{
+    background-color: #8fa7a5;
+}
+
+.Ametais{
+    background-color: #4ea0ff;
+}
+
+.Halogênios{
+    background-color: #b885fc;
+}
+
+.Gases_Nobres{
+    background-color: #7cd6fa;
+}
+
+.Metais_Lantanídeos{
+    background-color: #fcb5a7;
+}
+
+.Metais_Actinídeos{
+    background-color: #d998f7;
+}
