@@ -1,136 +1,119 @@
-body{
+body {
     background-color: #070707;
     margin: auto;
     text-align: center;
 }
 
-.title{
+.title {
     text-align: center;
 }
 
-table{
+table {
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-h2, th{
+h2,
+th {
     padding: 5px 20px 5px 5px;
-    color:#ffffff;  
+    color: #ffffff;
 }
 
-.período{
-    border-left: 2px solid #ffffff;
+.período {
     border-right: 2px solid #ffffff;
 }
-td{
+
+td {
     column-width: 10%;
     line-height: 110%;
     height: 9px;
-    width: 110px;    
+    width: 110px;
 }
 
-a:link{
+a:link {
     text-decoration: none;
     color: #070707;
 }
 
-:visited{
-    color:#070707;
+:visited {
+    color: #070707;
 }
 
-#element{
+#element {
     border: solid;
-    
     border-top-width: 3px;
     border-right-width: 3px;
     border-bottom-width: 3px;
     border-left-width: 3px;
-
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-/* di{
-    text-align: left;
-    padding: 5px 2px 2px 5px;
-}
-at{
-
-}
-si{
-
-}
-no{
-
-} */
-
-.distribuição{
+.distribuição {
     margin-top: auto;
     float: right;
     font-size: 90%;
     padding: 2px 3px 2px 2px;
 }
 
-.atômico{
+.atômico {
     text-align: left;
     padding: 5px 2px 2px 5px;
 }
 
-.símbolo{
+.símbolo {
     font-size: 130%
 }
 
-.name{
+.name {
     text-align: center;
     font-size: 110%;
     padding-bottom: 10px;
 }
 
-
-
 td div:not(.distribuição):not(.atômico):not(.símbolo):not(.nome):hover {
     border: 2px solid #ffffff;
 }
 
-.Metais_Alcalinos{
+.Metais_Alcalinos {
     background-color: #e44c4cf5;
 }
 
-.Metais_Alcalinos_Terrosos{
+.Metais_Alcalinos_Terrosos {
     background-color: #cc9236ef;
 }
 
-.Metais_Transição{
+.Metais_Transição {
     background-color: #fff780;
 }
 
-.Metais{
+.Metais {
     background-color: #48d174;
 }
 
-.Semimetais{
+.Semimetais {
     background-color: #8fa7a5;
 }
 
-.Ametais{
+.Ametais {
     background-color: #4ea0ff;
 }
 
-.Halogênios{
+.Halogênios {
     background-color: #b885fc;
 }
 
-.Gases_Nobres{
+.Gases_Nobres {
     background-color: #7cd6fa;
 }
 
-.Metais_Lantanídeos{
+.Metais_Lantanídeos {
     background-color: #fcb5a7;
 }
 
-.Metais_Actinídeos{
+.Metais_Actinídeos {
     background-color: #d998f7;
 }
