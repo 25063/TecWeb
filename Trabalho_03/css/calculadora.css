@@ -47,10 +47,10 @@ header{
     grid-template-rows: auto auto auto auto auto auto;
 
 }
-}
+
 
 .button{
-  grid-column: 1 / 4;
+  grid-column: auto;
 }
 /*
     grid-column: auto auto auto auto;
