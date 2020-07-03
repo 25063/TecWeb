@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="PT_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="../css/calculadora.css" rel="stylesheet" type="text/css">
+    <script language="javascript" src ="../js/calculadora.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div>
+    <header><h1>Calculadora</h1></header>
+        </div>
+    <div>
+        <section id="calculadora">
+            <form class="botao" name="formulario">
+                <div class="painel"><input type="text" name="painel" ><br></div>
+                <div class="button"><input type="button" value="7" onclick="button(value);"></div>
+                <div class="button"><input type="button" value="8" onclick="button(value);"></div>
+                <div class="button"><input type="button" value="9" onclick="button(value);"></div> 
+                <div class="button"><input type="button" value="/" onclick="button(value);"></div>
+
+                <div class="button"><input type="button" value="4" onclick="button(value);"></div>
+                <div class="button"><input type="button" value="5" onclick="button(value);"></div>
+                <div class="button"><input type="button" value="6" onclick="button(value);"></div>
+                <div class="button"><input type="button" value="*" onclick="button(value);"></div>
+
+
+                <div class="button"><input type="button" value="1" onclick="button(value);"></div>
+                <div class="button"><input type="button" value="2" onclick="button(value);"></div>
+                <div class="button"><input type="button" value="3" onclick="button(value);"></div>
+                <div class="button"><input type="button" value="-" onclick="button(value);"></div>
+
+                <div class="button"><input type="reset" value="C" onclick=""></div>
+                <div class="button"><input type="button" value="0" onclick="button(value);"></div>
+                <div class="button"><input type="button" value="." onclick="button(value);"></div>
+                <div class="button"><input type="button" value="+" onclick="button(value);"></div>
+                <div class="button"><input id="igual" type="button" value="=" onclick="resultado();historico();"></div>
+
+            </form>
+        </section>
+        <section id="historico">
+            <form name="historico">
+                <div type="text" name="documento" id="documento"><br> </div>
+                
+            </form>
+        </section>
+</div>
+</body>
+
+</html>
