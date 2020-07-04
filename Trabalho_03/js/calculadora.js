@@ -11,27 +11,28 @@ function button(novo_valor) {
 function resultado(){
     // Guarda a conta
     var calculo = document.formulario.painel.value;
-//    guarda_conta(calculo);
+    guarda_conta(calculo);
     // Realiza o Cálculo e armazena na variável
     var result  = eval(calculo);
-//    guarda_resultado(result);
+    guarda_resultado(result);
     // Limpa o painel
     document.formulario.painel.value.clear;
     
     // Mostra o resultado no painel
     document.formulario.painel.value = result;
 
-    document.historico.documento.value = calculo + " " + "=" + " " + result;
+//    document.historico.documento.text.value.write(calculo+" = "+result);
+    document.getElementById("documento").innerHTML += calculo+" = "+result+"<br>";
 }
 
 
-//function guarda_conta(calculo){
-//    var conta = calculo;
-//    return conta;
-//}
-//
-//
-//function guarda_resultado(result){
-//    var valor = result;
-//        return valor;
-//}
+function guarda_conta(calculo){
+    var conta = calculo;
+    return conta;
+}
+
+
+function guarda_resultado(result){
+    var valor = result;
+        return valor;
+}

@@ -17,35 +17,44 @@
     <div>
         <section id="calculadora">
             <form class="botao" name="formulario">
-                <div class="painel"><input type="text" name="painel" ><br></div>
-                <div class="button"><input type="button" value="7" onclick="button(value);"></div>
-                <div class="button"><input type="button" value="8" onclick="button(value);"></div>
-                <div class="button"><input type="button" value="9" onclick="button(value);"></div> 
-                <div class="button"><input type="button" value="/" onclick="button(value);"></div>
-
-                <div class="button"><input type="button" value="4" onclick="button(value);"></div>
-                <div class="button"><input type="button" value="5" onclick="button(value);"></div>
-                <div class="button"><input type="button" value="6" onclick="button(value);"></div>
-                <div class="button"><input type="button" value="*" onclick="button(value);"></div>
-
-
-                <div class="button"><input type="button" value="1" onclick="button(value);"></div>
-                <div class="button"><input type="button" value="2" onclick="button(value);"></div>
-                <div class="button"><input type="button" value="3" onclick="button(value);"></div>
-                <div class="button"><input type="button" value="-" onclick="button(value);"></div>
-
-                <div class="button"><input type="reset" value="C" onclick=""></div>
-                <div class="button"><input type="button" value="0" onclick="button(value);"></div>
-                <div class="button"><input type="button" value="." onclick="button(value);"></div>
-                <div class="button"><input type="button" value="+" onclick="button(value);"></div>
-                <div class="button"><input id="igual" type="button" value="=" onclick="resultado();historico();"></div>
-
+                <table>                
+                    <tr>
+                        <th colspan="4"><div class="painel"><input class="panel" type="text" name="painel"></div></th>
+                    </tr>
+                    <tr>
+                        <th><div class="item1"><input class="bot" type="button" value="7" onclick="button(value);"></div></th>
+                        <th><div class="item2"><input class="bot" type="button" value="8" onclick="button(value);"></div></th>
+                        <th><div class="item3"><input class="bot" type="button" value="9" onclick="button(value);"></div></th> 
+                        <th><div class="item4"><input class="bot" type="button" value="/" onclick="button(value);"></div></th>
+                    </tr>
+                    <tr>
+                        <th><div class="item5"><input class="bot" type="button" value="4" onclick="button(value);"></div></th>
+                        <th><div class="item6"><input class="bot" type="button" value="5" onclick="button(value);"></div></th>
+                        <th><div class="item7"><input class="bot" type="button" value="6" onclick="button(value);"></div></th>
+                        <th><div class="item8"><input class="bot" type="button" value="*" onclick="button(value);"></div></th>
+                    </tr>
+                    <tr>
+                        <th><div class="item9"><input class="bot" type="button" value="1" onclick="button(value);"></div></th>     
+                        <th><div class="item10"><input class="bot" type="button" value="2" onclick="button(value);"></div></th>
+                        <th><div class="item11"><input class="bot" type="button" value="3" onclick="button(value);"></div></th>
+                        <th><div class="item12"><input class="bot" type="button" value="-" onclick="button(value);"></div></th>
+                    </tr>
+                    <tr>
+                        <th><div class="item13"><input class="bot" type="reset" value="C" onclick=""></div></th>
+                        <th><div class="item14"><input class="bot" type="button" value="0" onclick="button(value);"></div></th>
+                        <th><div class="item15"><input class="bot" type="button" value="." onclick="button(value);"></div></th>
+                        <th><div class="item16"><input class="bot" type="button" value="+" onclick="button(value);"></div></th>
+                    </tr>  
+                    <tr>
+                        <th colspan="4"><div class="item17"><input class="equal" id="igual" type="button" value="=" onclick="resultado();"></div></th>
+                    </tr>
+                </table>      
             </form>
         </section>
         <section id="historico">
             <form name="historico">
-                <div type="text" name="documento" id="documento"><br> </div>
-                
+                <div class="historico" type="text" name="documento" id="documento"></div>
+
             </form>
         </section>
 </div>
