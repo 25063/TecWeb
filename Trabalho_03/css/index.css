@@ -1,0 +1,23 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+}
+header{
+    background-color: mediumpurple;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: lightskyblue;
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+     
+}
